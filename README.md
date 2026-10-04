@@ -232,7 +232,43 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## 📈 GitHub Telemetry & Achievements
+## 🏆 GitHub Official Achievements & Badges
+
+<div align="center">
+  <p>Verified profile milestones and developer badges earned across frontier AI benchmark repositories.</p>
+
+  <a href="https://github.com/jatinsihag2345?tab=achievements">
+    <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/tiers/pull-shark-silver.png" alt="Pull Shark Silver" width="105px" style="margin: 0 8px;" />
+  </a>
+  <a href="https://github.com/jatinsihag2345?tab=achievements">
+    <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/quickdraw-default.png" alt="Quickdraw" width="105px" style="margin: 0 8px;" />
+  </a>
+  <a href="https://github.com/jatinsihag2345?tab=achievements">
+    <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/yolo-default.png" alt="YOLO" width="105px" style="margin: 0 8px;" />
+  </a>
+  <a href="https://github.com/jatinsihag2345?tab=achievements">
+    <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/tiers/galaxy-brain-silver.png" alt="Galaxy Brain Silver" width="105px" style="margin: 0 8px;" />
+  </a>
+  <a href="https://github.com/jatinsihag2345?tab=achievements">
+    <img src="https://raw.githubusercontent.com/Schweinepriester/github-profile-achievements/main/images/tiers/pair-extraordinaire-bronze.png" alt="Pair Extraordinaire" width="105px" style="margin: 0 8px;" />
+  </a>
+
+  <br /><br />
+
+| Badge | Level / Multiplier | Requirement Satisfied | Status |
+| :---: | :---: | :--- | :---: |
+| 🦈 **Pull Shark** | **Silver (x2)** | 16 merged pull requests into default branches | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| ⚡ **Quickdraw** | **Unlocked** | Issue/PR closed within 5 minutes of opening | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 🪂 **YOLO** | **Unlocked** | Pull request merged directly without review block | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 🧠 **Galaxy Brain** | **Silver (x2)** | 8 accepted Q&A answers in public discussions | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+| 👥 **Pair Extraordinaire** | **Bronze (x1)** | Merged co-authored commits via pull requests | ![Earned](https://img.shields.io/badge/Status-UNLOCKED-success?style=flat-square&logo=github) |
+
+  <p>👉 <em>Inspect live verification badges on <a href="https://github.com/jatinsihag2345?tab=achievements"><strong>github.com/jatinsihag2345?tab=achievements</strong></a></em></p>
+</div>
+
+---
+
+## 📈 GitHub Telemetry & Activity Stats
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=jatinsihag2345&theme=tokyonight&no-frame=true&margin-w=12&row=1&column=6" alt="GitHub Trophies" width="100%" />
