@@ -1,5 +1,5 @@
 # Hi, I'm Jatin Sihag 👋
-### AI Evaluation Engineer & Agent Benchmark Specialist
+### AI Engineer & Agent Benchmark Specialist
 **Long-Horizon Reasoning | SWE-bench & TerminalBench Authoring | RLVR & Model Failure Analysis**
 
 [![GitHub followers](https://img.shields.io/github/followers/jatinsihag2345?style=social)](https://github.com/jatinsihag2345)
