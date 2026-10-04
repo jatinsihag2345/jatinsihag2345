@@ -232,9 +232,11 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## 📈 GitHub Telemetry & Activity
+## 📈 GitHub Telemetry & Achievements
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=jatinsihag2345&theme=tokyonight&no-frame=true&margin-w=12&row=1&column=6" alt="GitHub Trophies" width="100%" />
+  <br /><br />
   <img src="https://github-readme-stats.vercel.app/api?username=jatinsihag2345&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Jatin's GitHub Stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatinsihag2345&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </div>
