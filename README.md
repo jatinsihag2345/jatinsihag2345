@@ -11,7 +11,7 @@
   ```text
   $ whoami
   > Jatin Sihag — Frontier AI Engineer & Agent Benchmark Specialist
-  > Specializing in SWE-bench, TerminalBench, RLVR Verifiers & Long-Horizon Failures
+  > Specializing in SWE-bench, TerminalBench, GAIA, RLVR Verifiers & Long-Horizon Failures
   ```
 </div>
 
@@ -20,7 +20,7 @@
 ### ⚡ At a Glance
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Benchmark_Suites-6_Production_Frameworks-4F46E5?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Benchmark_Suites-8_Production_Frameworks-4F46E5?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/Verification_Standard-100%25_Deterministic-10B981?style=flat-square&logo=pytest" />
   <img src="https://img.shields.io/badge/Red--Team_Vectors-250%2B_Adversarial_Probes-EF4444?style=flat-square&logo=securityscorecard" />
   <img src="https://img.shields.io/badge/Long--Horizon_Tasks-15--30%2B_Steps-F59E0B?style=flat-square&logo=speedtest" />
@@ -142,6 +142,34 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
   </tr>
   <tr>
     <td width="50%">
+      <h3 align="center">🌍 <a href="https://github.com/jatinsihag2345/gaia-agent-eval-harness">gaia-agent-eval-harness</a></h3>
+      <p align="center"><b>GAIA Multi-Modal Agent Benchmark Suite</b></p>
+      <ul>
+        <li><b>Levels 1–3:</b> Evaluates multi-modal synthesis (text, tables, PDFs) and web navigation.</li>
+        <li><b>Quasi-Exact Matching:</b> Implements official GAIA numerical tolerance and unordered set matching.</li>
+        <li><b>Leaderboard:</b> Claude 3.5 Sonnet (49.1%), GPT-4o (44.2%), Gemini 1.5 Pro (40.6%).</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Benchmark-GAIA%20Multi--Modal-purple" />
+        <img src="https://img.shields.io/badge/Levels-1%20to%203-blue" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🔬 <a href="https://github.com/jatinsihag2345/cot-reasoning-auditor">cot-reasoning-auditor</a></h3>
+      <p align="center"><b>Chain-of-Thought Logical Coherence Auditor</b></p>
+      <ul>
+        <li><b>Reasoning Trace Auditing:</b> Detects Premise Hallucination, Circular Reasoning, and Premature Conclusions.</li>
+        <li><b>Backtrack Scoring:</b> Evaluates self-correction efficacy and overthinking token penalties.</li>
+        <li><b>Report:</b> Tested on reasoning traces from DeepSeek-R1, OpenAI o1, and QwQ-32B.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Focus-CoT%20Auditing-orange" />
+        <img src="https://img.shields.io/badge/Fallacies-Detected-brightgreen" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">🛡️ <a href="https://github.com/jatinsihag2345/model-redteam-atlas">model-redteam-atlas</a></h3>
       <p align="center"><b>Adversarial Red-Teaming & Safety Suite</b></p>
       <ul>
@@ -180,6 +208,8 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 | **SWE (Code Fixes)** | Git repo + virtualenv | Regression in unrelated tests, partial patch application | Pytest Fail-to-Pass & Pass-to-Pass | **100% (Gold)** |
 | **Long-Horizon Tool Use** | Multi-API Mock Server | Tool argument drift, context window overflow, state loss | State-machine log auditor | **100% (Oracle)** |
 | **RLVR Reasoning** | Python Sandbox | Step-by-step logic errors, boundary drift, rational equivalence | Pure Python AST & fraction match | **100% (Verified)** |
+| **GAIA Multi-Modal** | Multi-Tool Sandbox | Multi-modal comprehension, table extraction, multi-hop lookup | Quasi-Exact Numerical & Set match | **Deterministic** |
+| **CoT Reasoning Trace** | Token Trace Parser | Premise hallucination, circular loops, premature termination | Step-by-step Logic Auditor | **Deterministic** |
 | **Red-Teaming / Safety** | Adversarial Harness | Jailbreaks, prompt leaks, sycophancy, tool privilege escalation | Refusal classifier & canary detector | **Automated** |
 | **Tool Orchestration** | Mock Services API | Argument hallucinations, parameter type mismatches | JSON Schema Validator | **Deterministic** |
 
