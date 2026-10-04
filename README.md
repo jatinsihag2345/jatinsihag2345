@@ -1,17 +1,37 @@
-# Hi, I'm Jatin Sihag 👋
-### AI Engineer & Agent Benchmark Specialist
-**Long-Horizon Reasoning | SWE-bench & TerminalBench Authoring | RLVR & Model Failure Analysis**
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=220&section=header&text=Jatin%20Sihag&fontSize=52&fontColor=ffffff&animation=fadeIn&subtext=AI%20Engineer%20%E2%80%A2%20Agent%20Benchmarks%20%E2%80%A2%20RLVR%20%E2%80%A2%20Red-Teaming&subfontSize=18&subfontColor=d8b4fe" width="100%" />
 
-[![GitHub followers](https://img.shields.io/github/followers/jatinsihag2345?style=social)](https://github.com/jatinsihag2345)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=flat&logo=gmail)](mailto:clyfergamer@gmail.com)
-[![Status](https://img.shields.io/badge/Status-Open_for_Eval_Contracts-success?style=flat)]()
+  [![Gmail](https://img.shields.io/badge/Gmail-jatinsihag234%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jatinsihag234@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-jatinsihag2345-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jatinsihag2345)
+  [![Status](https://img.shields.io/badge/Status-Open_for_AI_Eval_Contracts-00C853?style=for-the-badge)]()
+  [![Mercor & Turing Ready](https://img.shields.io/badge/Platforms-Mercor_%7C_Turing_%7C_Scale_AI-7928CA?style=for-the-badge)]()
+
+  <br />
+
+  ```text
+  $ whoami
+  > Jatin Sihag — Frontier AI Engineer & Agent Benchmark Specialist
+  > Specializing in SWE-bench, TerminalBench, RLVR Verifiers & Long-Horizon Failures
+  ```
+</div>
 
 ---
 
-## 🔬 Core Focus & Expertise
+### ⚡ At a Glance
 
-I specialize in **frontier AI evaluation, deterministic grading harnesses, and agent task synthesis**. My work centers on creating rigorous, verifiable tasks that frontier models (GPT-4o, Claude 3.5 Sonnet, DeepSeek-V3/R1, Gemini 1.5/2.0) fail on—specifically in multi-step agentic trajectories and code intelligence.
+<div align="center">
+  <img src="https://img.shields.io/badge/Benchmark_Suites-6_Production_Frameworks-4F46E5?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Verification_Standard-100%25_Deterministic-10B981?style=flat-square&logo=pytest" />
+  <img src="https://img.shields.io/badge/Red--Team_Vectors-250%2B_Adversarial_Probes-EF4444?style=flat-square&logo=securityscorecard" />
+  <img src="https://img.shields.io/badge/Long--Horizon_Tasks-15--30%2B_Steps-F59E0B?style=flat-square&logo=speedtest" />
+  <img src="https://img.shields.io/badge/Containerization-Docker_Sandboxed-0284C7?style=flat-square&logo=docker" />
+</div>
+
+---
+
+## 🔬 Core Focus & Engineering Specialization
+
+I specialize in **frontier AI evaluation, deterministic grading harnesses, and agent task synthesis**. My work centers on creating rigorous, verifiable tasks that frontier models (GPT-4o, Claude 3.5 Sonnet, DeepSeek-R1/V3, Gemini 1.5/2.0) fail on—specifically in multi-step agentic trajectories and code intelligence.
 
 - 🎯 **Long-Horizon Agent Trajectories (15–30+ steps):** Designing multi-turn interactive environments testing context retention, backtracking, tool error recovery, and constraint stability.
 - 💻 **Terminal & OS Benchmarks (TerminalBench / OSWorld style):** Authoring realistic Linux/CLI debugging scenarios, system administration puzzles, and network edge cases evaluated with isolated Docker containers and deterministic pytest assertions.
@@ -21,75 +41,183 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
-## 🏆 Flagship Evaluation Suites & Benchmarks
+## 🏗️ Evaluation Harness Architecture
 
-### 1. [`terminal-bench-eval`](https://github.com/jatinsihag2345/terminal-bench-eval)
-> **Comprehensive CLI & OS Agent Benchmark with Sandboxed Docker Environments**
-- **8+ Production Tasks:** Hard real-world terminal challenges (corrupted git HEADs, socket deadlocks, C-extension build failures, DNS search leaks, SQLite WAL checkpoint locks).
-- **Isolated Sandboxing:** Containerized execution harness ensuring reproducibility and zero host side-effects.
-- **Deterministic Grading:** Automated pytest & bash assertion suite computing Pass@1, step cost, and execution latency.
-- **Model Baselines:** Tested against Claude 3.5 Sonnet (75.0%), GPT-4o (62.5%), and DeepSeek-V3 (62.5%).
-
-### 2. [`swe-bench-task-forge`](https://github.com/jatinsihag2345/swe-bench-task-forge)
-> **Automated Pipeline for SWE-bench Task Authoring, Extraction, and F2P/P2P Verification**
-- End-to-end task generation pipeline from raw GitHub issues to valid SWE-bench JSON task schemas.
-- Automated validation runner ensuring fail-to-pass (F2P) tests strictly fail on the base commit and pass on the gold patch.
-- Bundled with verified task instances across popular Python open-source repos (`requests`, `flask`, `scikit-learn`).
-
-### 3. [`long-horizon-agent-stress-bench`](https://github.com/jatinsihag2345/long-horizon-agent-stress-bench)
-> **Multi-Step Agentic Stress-Test Harness Designed to Induce Frontier Model Failures**
-- Targets agent failure modes across 15–30 tool-calling turns: context forgetting, circular error recovery, state synchronization drift.
-- Includes automated rubric evaluation, trajectory replay visualizer, and quantitative failure rate metrics.
-
-### 4. [`rlvr-math-verifiers`](https://github.com/jatinsihag2345/rlvr-math-verifiers)
-> **Deterministic Verification Environments for Reinforcement Learning with Verifiable Rewards (RLVR)**
-- High-throughput LaTeX parsing, nested `\boxed{...}` extraction, and fraction/rational equivalence engine.
-- Zero-dependency verification for PPO and GRPO reasoning model training loops on MATH-500 and GSM8K.
-
-### 5. [`model-redteam-atlas`](https://github.com/jatinsihag2345/model-redteam-atlas)
-> **Adversarial Prompt Evaluation, Jailbreak Defense & Red-Teaming Harness**
-- 250+ structured adversarial vectors evaluating Indirect Prompt Injections, System Prompt Leaks, Delimiter Escaping, and Factual Sycophancy.
-- Comparative defense score leaderboard across Claude 3.5 Sonnet, GPT-4o, and DeepSeek-V3.
-
-### 6. [`agentic-tool-use-eval`](https://github.com/jatinsihag2345/agentic-tool-use-eval)
-> **Function Calling, Nested JSON Schema Compliance & Multi-Tool Orchestration Benchmark**
-- Evaluates schema conformance, parameter type enforcement, argument hallucination rates, and multi-tool planning.
+```
+                 ┌──────────────────────────────────────┐
+                 │  Problem Definition & Target State   │
+                 └──────────────────┬───────────────────┘
+                                    │
+                                    ▼
+       ┌────────────────────────────────────────────────────────┐
+       │             Isolated Sandbox Execution                 │
+       │  • Ephemeral Docker Container (Ubuntu/Alpine)          │
+       │  • Corrupt State Injection (Git/Sysadmin/Networking)   │
+       │  • Strict Non-Interactive Environment Boundaries       │
+       └────────────────────────────┬───────────────────────────┘
+                                    │
+                         Observation Loop (Tool Execution)
+                                    │
+                                    ▼
+       ┌────────────────────────────────────────────────────────┐
+       │             Autonomous Agent Reasoning                 │
+       │  • Multi-Turn Tool Loop (ReAct / Function Calling)     │
+       │  • Trajectory Telemetry (Tokens, Latency, Commands)    │
+       └────────────────────────────┬───────────────────────────┘
+                                    │
+                        Completion Signal (EXIT)
+                                    │
+                                    ▼
+       ┌────────────────────────────────────────────────────────┐
+       │            Deterministic Grading Engine                │
+       │  • Fail-to-Pass (F2P) & Pass-to-Pass (P2P) Assertions  │
+       │  • Negative Constraint Violation Auditor               │
+       │  • Exit Code & File System Integrity Check             │
+       └────────────────────────────┬───────────────────────────┘
+                                    │
+                                    ▼
+                  [Pass@1 Report & Cognitive Metrics]
+```
 
 ---
 
-## 📊 Benchmark Design Matrix
+## 🏆 Flagship Evaluation Suites & Benchmarks
 
-| Benchmark Domain | Environment Type | Primary Failure Modes Tested | Verification Method |
-| :--- | :--- | :--- | :--- |
-| **CLI / Sysadmin** | Docker (Alpine / Ubuntu) | File descriptor leaks, missing ENV vars, socket timeouts | Deterministic exit code & FS assertion |
-| **SWE (Code Fixes)** | Git repo + virtualenv | Regression in unrelated tests, partial patch application | Pytest Fail-to-Pass & Pass-to-Pass |
-| **Long-Horizon Tool Use** | Multi-API Mock Server | Tool argument drift, context window overflow, state loss | State-machine log auditor |
-| **RLVR Reasoning** | Python Sandbox | Step-by-step logic errors, boundary drift, rational equivalence | Pure Python AST & fraction match |
-| **Red-Teaming / Safety** | Adversarial Harness | Jailbreaks, prompt leaks, sycophancy, tool privilege escalation | Refusal classifier & canary detector |
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🖥️ <a href="https://github.com/jatinsihag2345/terminal-bench-eval">terminal-bench-eval</a></h3>
+      <p align="center"><b>Sandboxed CLI & OS Agent Benchmark Harness</b></p>
+      <ul>
+        <li><b>8 Production Tasks:</b> Corrupt Git HEADs, socket TIME_WAIT deadlocks, C ABI mismatches, DNS loops, SQLite WAL locks.</li>
+        <li><b>Sandboxing:</b> Isolated Docker & subprocess execution with 100% reference Oracle verification.</li>
+        <li><b>Leaderboard:</b> Claude 3.5 Sonnet (75.0%), GPT-4o (62.5%), DeepSeek-V3 (62.5%).</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Tasks-8_Verified-brightgreen" />
+        <img src="https://img.shields.io/badge/Pass%401-Deterministic-blue" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🛠️ <a href="https://github.com/jatinsihag2345/swe-bench-task-forge">swe-bench-task-forge</a></h3>
+      <p align="center"><b>SWE-bench Task Authoring & Verification Pipeline</b></p>
+      <ul>
+        <li><b>3-Stage Protocol:</b> Automated Fail-to-Pass (F2P) & Pass-to-Pass (P2P) test isolation verification.</li>
+        <li><b>Patch Purity:</b> Rigorous check preventing model patches from modifying test suites.</li>
+        <li><b>Verified Instances:</b> Pre-bundled tasks for <code>requests</code>, <code>flask</code>, and <code>scikit-learn</code> + JSONL exporter.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Format-Official_SWE--bench-orange" />
+        <img src="https://img.shields.io/badge/F2P%2FP2P-Enforced-success" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🧠 <a href="https://github.com/jatinsihag2345/long-horizon-agent-stress-bench">long-horizon-agent-stress-bench</a></h3>
+      <p align="center"><b>Cognitive Failure Taxonomy & Degradation Suite</b></p>
+      <ul>
+        <li><b>15–30+ Step Tasks:</b> Stress-testing frontier agent reasoning over deep tool-calling trajectories.</li>
+        <li><b>Failure Taxonomy:</b> Automated detection of Context Window Drift, Circular Retry Loops, and State Desync.</li>
+        <li><b>Empirical Analysis:</b> Published failure distributions across 120 trajectories for Claude, GPT, and DeepSeek.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Horizon-15--30%2B_Steps-red" />
+        <img src="https://img.shields.io/badge/Taxonomy-6_Classes-purple" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🧮 <a href="https://github.com/jatinsihag2345/rlvr-math-verifiers">rlvr-math-verifiers</a></h3>
+      <p align="center"><b>RLVR Deterministic Reward Environments</b></p>
+      <ul>
+        <li><b>Verifiable Rewards:</b> High-throughput mathematical reward signals ($r \in \{0.0, 1.0\}$) for PPO & GRPO.</li>
+        <li><b>Symbolic Engine:</b> Handles nested <code>\boxed{}</code>, GSM8K syntax, rational fractions, and float tolerances.</li>
+        <li><b>Benchmarks:</b> Tested on MATH-500 and GSM8K-Hard for reasoning models (o1, DeepSeek-R1, Qwen-2.5-Math).</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/RLVR-Binary_Rewards-brightgreen" />
+        <img src="https://img.shields.io/badge/MATH--500-Integrated-blue" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🛡️ <a href="https://github.com/jatinsihag2345/model-redteam-atlas">model-redteam-atlas</a></h3>
+      <p align="center"><b>Adversarial Red-Teaming & Safety Suite</b></p>
+      <ul>
+        <li><b>250+ Vectors:</b> Testing Indirect Prompt Injections, System Prompt Leaks, Canary Token extraction, and Sycophancy.</li>
+        <li><b>Automated Scanner:</b> Rule-based refusal boundary auditor and vulnerability scoring engine.</li>
+        <li><b>Safety Leaderboard:</b> Benchmarked defense rates across Claude 3.5 Sonnet (95.7%), GPT-4o (92.9%), and DeepSeek-V3.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Vectors-250%2B_Adversarial-red" />
+        <img src="https://img.shields.io/badge/Safety-Evaluated-teal" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🔧 <a href="https://github.com/jatinsihag2345/agentic-tool-use-eval">agentic-tool-use-eval</a></h3>
+      <p align="center"><b>Function Calling & Multi-Tool Benchmark</b></p>
+      <ul>
+        <li><b>Schema Compliance:</b> Enforces strict JSON function calling, parameter types, and enum restrictions.</li>
+        <li><b>Hallucination Guard:</b> Automatically flags phantom arguments invented by models.</li>
+        <li><b>Multi-Tool Chains:</b> Interdependent workflows combining SQL, Calculator, Filesystem, and REST APIs.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Tools-Multi--Orchestration-yellow" />
+        <img src="https://img.shields.io/badge/JSON_Schema-Validated-blueviolet" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 Comprehensive Benchmark Design Matrix
+
+| Benchmark Domain | Environment Type | Primary Failure Modes Tested | Verification Method | Solvability |
+| :--- | :--- | :--- | :--- | :---: |
+| **CLI / Sysadmin** | Docker (Alpine / Ubuntu) | File descriptor leaks, missing ENV vars, socket timeouts | Deterministic exit code & FS assertion | **100% (Oracle)** |
+| **SWE (Code Fixes)** | Git repo + virtualenv | Regression in unrelated tests, partial patch application | Pytest Fail-to-Pass & Pass-to-Pass | **100% (Gold)** |
+| **Long-Horizon Tool Use** | Multi-API Mock Server | Tool argument drift, context window overflow, state loss | State-machine log auditor | **100% (Oracle)** |
+| **RLVR Reasoning** | Python Sandbox | Step-by-step logic errors, boundary drift, rational equivalence | Pure Python AST & fraction match | **100% (Verified)** |
+| **Red-Teaming / Safety** | Adversarial Harness | Jailbreaks, prompt leaks, sycophancy, tool privilege escalation | Refusal classifier & canary detector | **Automated** |
+| **Tool Orchestration** | Mock Services API | Argument hallucinations, parameter type mismatches | JSON Schema Validator | **Deterministic** |
 
 ---
 
 ## 🛠️ Technical Stack & Tooling
 
-```
-Languages:        Python 3.10+, Bash / Shell, SQL, JavaScript / TypeScript
-Agent Harnesses:  Docker, Pytest, vLLM, LiteLLM, LangChain, LangGraph, SWE-bench CLI
-Eval Frameworks:  OpenAI Evals, DeepEval, Promptfoo, Inspect AI, Ragas
-Data & Modeling:  Hugging Face (datasets, transformers), SymPy, Pandas, NumPy
-Infrastructure:   Git, Linux / Unix Internals, Systemd, Cgroups, Networking (cURL, Nginx, DNS)
-```
+<div align="center">
+
+| Layer | Technologies & Tooling |
+| :--- | :--- |
+| **Core Languages** | `Python 3.10+`, `Bash / Shell Scripting`, `SQL`, `C / C++ (debugging)` |
+| **Sandbox & Infrastructure** | `Docker`, `Linux Internals`, `Systemd`, `Cgroups`, `POSIX Sockets`, `Git` |
+| **Testing & Determinism** | `Pytest`, `Subprocess Sandboxing`, `SymPy`, `AST Analysis`, `Regex Parsers` |
+| **Agent Frameworks & SDKs** | `LiteLLM`, `vLLM`, `LangChain`, `LangGraph`, `OpenAI API`, `Anthropic SDK` |
+| **Evaluation Toolkits** | `SWE-bench CLI`, `OpenAI Evals`, `DeepEval`, `Promptfoo`, `Inspect AI` |
+| **Data & Datasets** | `Hugging Face (datasets, transformers)`, `JSONL Pipelines`, `Pandas`, `NumPy` |
+
+</div>
 
 ---
 
-## 📈 GitHub Metrics
+## 📈 GitHub Telemetry & Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jatinsihag2345&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Jatin's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatinsihag2345&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jatinsihag2345&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Jatin's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatinsihag2345&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+</div>
 
 ---
 
 ## 📬 Contact & Engagements
-- Open for **AI Evaluation Specialist, Task Authoring, and Model Red-Teaming** contracts on Mercor, Turing, Scale AI, and frontier AI research labs.
-- Reach out: **[clyfergamer@gmail.com](mailto:clyfergamer@gmail.com)**
+
+- 💼 **Available for AI Evaluation Specialist, Task Authoring, and Model Red-Teaming contracts.**
+- 🎯 **Platforms:** Mercor, Turing, Scale AI, Outlier, and frontier AI research labs.
+- ✉️ **Direct Email:** **[jatinsihag234@gmail.com](mailto:jatinsihag234@gmail.com)**
+- 🌐 **GitHub:** **[github.com/jatinsihag2345](https://github.com/jatinsihag2345)**
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=100&section=footer" width="100%" />
+</div>
