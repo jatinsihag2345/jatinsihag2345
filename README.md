@@ -200,6 +200,44 @@ I specialize in **frontier AI evaluation, deterministic grading harnesses, and a
 
 ---
 
+## 📦 Open-Source Libraries & Community Ecosystem
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">📦 <a href="https://github.com/jatinsihag2345/llm-eval-toolkit">llm-eval-toolkit</a></h3>
+      <p align="center"><b>Modular Python SDK for Deterministic Grading & AST Diffing</b></p>
+      <ul>
+        <li><b>Deterministic Scoring:</b> Exact match normalizers, LaTeX boxed extractor, and epsilon tolerance numeric verifiers.</li>
+        <li><b>AST Semantic Diffing:</b> Structural Python syntax tree equivalence ignoring docstrings and whitespace.</li>
+        <li><b>Sandboxed Execution:</b> Subprocess runner with strict memory limits and execution timeout enforcement.</li>
+        <li><b>Token Cost Telemetry:</b> Pre-configured financial pricing auditor for GPT-4o, Claude 3.5, and DeepSeek-R1.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3.9%2B-blue" />
+        <img src="https://img.shields.io/badge/License-MIT-green" />
+        <img src="https://img.shields.io/badge/Package-SDK-orange" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🌟 <a href="https://github.com/jatinsihag2345/awesome-ai-evaluations">awesome-ai-evaluations</a></h3>
+      <p align="center"><b>Curated Taxonomy of Frontier AI & Agent Benchmarks</b></p>
+      <ul>
+        <li><b>Comprehensive Coverage:</b> SWE-bench, TerminalBench, GAIA, WebArena, MATH-500, OSWorld, HarmBench.</li>
+        <li><b>Benchmark Matrix:</b> Modality breakdown, verifier classifications (Oracle, Symbolic, AST), and paper citations.</li>
+        <li><b>Methodology Guides:</b> Best practices for RLVR reward modeling, contamination detection, and sandboxing.</li>
+      </ul>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Awesome-Curated-brightgreen" />
+        <img src="https://img.shields.io/badge/Taxonomy-Frontier_Evals-blueviolet" />
+        <img src="https://img.shields.io/badge/PRs-Welcome-success" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📊 Comprehensive Benchmark Design Matrix
 
 | Benchmark Domain | Environment Type | Primary Failure Modes Tested | Verification Method | Solvability |
